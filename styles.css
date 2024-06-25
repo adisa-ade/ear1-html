@@ -268,15 +268,23 @@ main{
 }
 .footer-wrapper .icon{
     display: flex;
-    gap: 20px;    
-    cursor: pointer;
+    gap: 15px;        
 }
 .text-wrapper h3{
     font-size: 20px;
+} 
+.footer-wrapper .footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
-.footer-wrapper p{
+.footer-wrapper .footer-list li{
+    list-style: none;
+}
+.footer-wrapper .footer-list li a,.text-wrapper p , .text-wrapper p a{
     color: var(--gray-300);
-    font-size: 14px;
+    text-decoration: none;    
+    font-size: 16px;
 }
 @media (max-width: 600px) {    
     .navbar-menu {
