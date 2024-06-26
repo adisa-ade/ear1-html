@@ -413,6 +413,7 @@ main{
     }
 }
 @media (min-width:1024px){    
+
     header {        
         padding: 20px 150px;    
     }
@@ -435,7 +436,7 @@ main{
         column-gap: 85px;    
     }    
     .content-p3{
-        padding: 0 160px;
+        padding: 0 140px;
         margin: 0 80px;        
     }
     .sub-content{        
