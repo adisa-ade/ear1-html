@@ -282,7 +282,7 @@ main{
     .navbar-menu {
         display: none;
         position: absolute;
-        top: 100px;
+        top: 80px;
         flex-direction: column;
         width: 90%;
         background-color: var(--green-400);
